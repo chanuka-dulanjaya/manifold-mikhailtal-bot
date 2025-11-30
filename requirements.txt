@@ -1,0 +1,27 @@
+# Core dependencies
+requests>=2.31.0
+python-dotenv>=1.0.0
+anthropic>=0.18.0
+
+# Data processing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Utilities
+python-dateutil>=2.8.2
+pytz>=2023.3
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-asyncio>=0.21.0
+
+# Development
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Optional: For advanced features
+scikit-learn>=1.3.0  # For ML-based strategies
+textblob>=0.17.1     # For sentiment analysis
+ta>=0.11.0           # Technical analysis indicators
